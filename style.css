@@ -96,50 +96,84 @@ li:first-of-type, li:last-of-type {
        -ms-transform:  scale(2);
         transform: scale(2);
 }
-
 #deux {
        font-style: bold;
        text-align: center;
 	background-color: #F7F705;
+       -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+       -o-transition: 1s ease-in-out;
 	border-radius: 50px 50px;
        width: 33%;
        height: 33%;
 	border-radius: 50px 50px;
 }
+#deux:hover {
+       -webkit-transform:  scale(2);
+       -moz-transform:  scale(2);
+       -o-transform:  scale(2);
+       -ms-transform:  scale(2);
+        transform: scale(2);
+}
 #trois {
-
        font-style: bold;
        text-align: center;
 	background-color: #E8950C;
+       -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+       -o-transition: 1s ease-in-out;
 	border-radius: 50px 50px;
        width: 33%;
        height: 33%;
-
+}
+#trois:hover {
+       -webkit-transform:  scale(2);
+       -moz-transform:  scale(2);
+       -o-transform:  scale(2);
+       -ms-transform:  scale(2);
+        transform: scale(2);
 }
 #quatre {
        font-style: bold;
        text-align: center;
 	background-color: #9A3C62;
+       -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+       -o-transition: 1s ease-in-out;
 	border-radius: 50px 50px;
        width: 33%;
        height: 33%;
-
+}
+#quatre:hover {
+       -webkit-transform:  scale(2);
+       -moz-transform:  scale(2);
+       -o-transform:  scale(2);
+       -ms-transform:  scale(2);
+        transform: scale(2);
 }
 #cinq {
        font-style: bold;
        text-align: center;
 	background-color: #92913C;
+       -webkit-transition: 1s ease-in-out;
+       -moz-transition: 1s ease-in-out;
+       -o-transition: 1s ease-in-out;
 	border-radius: 50px 50px;
        width: 33%;
        height: 33%;
-
+}
+#cinq:hover {
+       -webkit-transform:  scale(2);
+       -moz-transform:  scale(2);
+       -o-transform:  scale(2);
+       -ms-transform:  scale(2);
+        transform: scale(2);
 }
 .img {
      display: flex;
      margin: auto;
      width: 20%;
 }
-
 .animation {
      font-size: 4em;
      font-weight: bold;
